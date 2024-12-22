@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // not compatible with React 19 / Next 15 StrictMode
+  reactStrictMode: false,
 };
 
 export default nextConfig;
